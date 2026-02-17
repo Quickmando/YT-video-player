@@ -54,7 +54,7 @@ def play_ascii_video(video_path, width=300, fps=30):
     cap.release()
 
 if __name__ == "__main__":
-    youtube_url = "https://www.youtube.com/watch?v=QDia3e12czc"
+    youtube_url = input('Insert Youtube URL: ')
 
     print("Downloading video...")
     video_file = download_youtube_video(youtube_url, "yt_video.mp4")
